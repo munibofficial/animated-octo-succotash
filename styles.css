@@ -96,6 +96,7 @@ font-size:15px;
     
   }
   .btn-primary {
+    display: flex;
     background-image: linear-gradient(to right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 10px;
     color: white;
@@ -103,6 +104,12 @@ font-size:15px;
     --bs-btn-padding-x: 5rem;
     --bs-btn-font-size: .75rem;
   }
+  
+  /* .btn-primary:hover {
+    background-image: linear-gradient(to right, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: white;
+  } */
+  
   
 
 

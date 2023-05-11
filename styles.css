@@ -1,3 +1,4 @@
+
 .row {
   width: 45%;
   background-color: hwb(222 92% 0%);
@@ -5,11 +6,11 @@
   border-radius: 10px;
   margin: 0 auto;
   }
-  
   body {
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  
   .container {
   background-color: white;
   border-radius: 10px;
@@ -18,7 +19,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70%;
+  height: 80%;
   width: 80%;
   padding: 1rem;
   }

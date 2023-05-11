@@ -1,15 +1,18 @@
 
 .row {
-  width: 45%;
   background-color: hwb(222 92% 0%);
-  padding: 8px;
   border-radius: 10px;
   margin: 0 auto;
+  justify-content: center;
+    align-items: center;
+  
   }
   body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+
   }
   .container {
   background-color: white;
@@ -21,7 +24,6 @@
   align-items: center;
   height: 80%;
   width: 80%;
-  padding: 1rem;
   }
   
   .alert img,
@@ -35,7 +37,7 @@
   
   .alert img {
   width: 18px;
-  height: 18px;
+  height: 20px;
   margin-top: 2px;
   margin-right: 10px;
   }

@@ -4,59 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Results summary component</title>
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 <body>
-  <div class="container text-center">
-    <div class="row">
-      <div class="col" style="background: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); border-radius: 10px; padding: 10px;">
-        <div>
-          <p>Your Results</p>
+  <header>
+   
+  </header>
+  <main>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col" style="background: linear-gradient(to bottom right, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); border-radius: 10px; padding: 10px;">
+          <h2 style="color: rgb(227, 227, 227);font-size:small;">Your Results</h2>
+          <div>
+            <h3>76</h3>
+            <p>&nbsp;of 100</p>
+          </div>
+          <div>
+            <p>Great</p>
+          </div>
+          <div>
+            <p>You did better than 80% of the previous users</p>
+          </div>
         </div>
-        <div>
-          <h3>76</h3>
-          <p>&nbsp of 100</p>
-        </div>
-        <div>
-          <p>Great</p>
-        </div>
-        <div>
-          <p>You did better than 80% of the previous users</p>
-        </div>
-      </div>
-      
-      <div class="col">
-        <div>
-          <h3 style="text-align: left; margin-top: 20px; font-size: 15px; font: weight 600px;">Summary</h3>
-        </div>
-        <div class="alert alert-danger border-0" role="alert">
-          <img src="/assets/images/icon-reaction.svg" alt="" style="display: inline-block;">
-          <h3>Reaction</h3>
-          <p ><b>80</b>/ 100</p>
-        </div>        
-        <div class="alert alert-warning border-0" role="alert">
-          <img src="/assets/images/icon-memory.svg" alt="" style="display: inline-block;">
-          <h3 >Memory</h3>
-          <p><b>92</b> / 100</p>
-        </div>        
-        <div class="alert alert-success border-0" role="alert">
-          <img src="/assets/images/icon-verbal.svg" alt="">
-          <h3>Verbal</h3>
-          <p><b>61</b>/ 100</p>
-         </div>
+        
+        <div class="col">
+          <div>
+            <h2 style="font-size: large;margin-top:10px; text-align:left">Summary</h2>
+          </div>
+          <div class="alert alert-danger border-0" role="alert">
+            <img src="/assets/images/icon-reaction.svg" alt="">
+            <h3>Reaction</h3>
+            <p ><b>80</b>/ 100</p>
+          </div>        
+          <div class="alert alert-warning border-0" role="alert">
+            <img src="/assets/images/icon-memory.svg" alt="">
+            <h3>Memory</h3>
+            <p><b>92</b> / 100</p>
+          </div>        
+          <div class="alert alert-success border-0" role="alert">
+            <img src="/assets/images/icon-verbal.svg" alt="">
+            <h3>Verbal</h3>
+            <p><b>61</b>/ 100</p>
+          </div>
           <div class="alert alert-primary border-0" role="alert">
             <img src="/assets/images/icon-visual.svg" alt="">
             <h3>Visual</h3>
@@ -69,15 +62,10 @@
         </button>
           </div>
         </div>         
-        </div>  
-      </div>
+      </div>  
     </div>
-  </div>
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Muneeb Amjad</a>.
-  </div>
+  </main>
+  <footer>
+  </footer>
 </body>
 </html>
